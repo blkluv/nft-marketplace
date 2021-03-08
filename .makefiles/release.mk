@@ -34,3 +34,4 @@ create-pr:
 
 browse-pr:
 	@hub browse -- pulls
+

@@ -1,0 +1,37 @@
+node:
+  name: 'ABT Node [hardworker1002]'
+  description: 'ABT Node on [192.168.1.151]'
+  mode: production
+  version: 1.0.37
+  sk: >-
+    0x14ef3e58bc75e745868bc08496a715cbdb8e20e0bd20d91c3c958aa1e3c23e48fdc83d7c8b4ec59de310f7e5e23402b7fe83b14ea5b16671e7e88e09fc6f785c
+  pk: '0xfdc83d7c8b4ec59de310f7e5e23402b7fe83b14ea5b16671e7e88e09fc6f785c'
+  did: zNKjwqYLbjWDYMYCmFV6MN9HDeHjWqhjNXEa
+  port: 8089
+  secret: '0x472626dfd417898ed5340798e1bc847eb79122259ff6d547e0d411762da675f5'
+  owner:
+    pk: ''
+    did: ''
+  autoUpgrade: false
+  routing:
+    provider: none
+    adminPath: /admin/
+    https: true
+    headers:
+      X-Powered-By: '"ABT Node/1.0.37"'
+    dashboardCertDownloadAddress: 'https://cert.abtnet.io/open/download/certificates/ip_abtnet_io'
+    dashboardDomain: '*.ip.abtnet.io'
+    maxUploadFileSize: 500
+    httpPort: 80
+    httpsPort: 443
+  runtimeConfig:
+    daemonMaxMemoryLimit: 300
+    proxyMaxMemoryLimit: 300
+    blockletMaxMemoryLimit: 300
+  registerUrl: 'https://install.arcblock.io/'
+blocklet:
+  port: 8089
+  registry: 'https://blocklet.arcblock.io'
+  owner:
+    pk: ''
+    did: ''

@@ -37,7 +37,7 @@ export const PageLogo = ({
       return (
         <div className="logo">
           <Link to={logoLink} disableI18n={disableI18n}>
-            <img className="logo__image" src={logoImage.publicURL || logoImage} alt={title} />
+            <img className="logo__image" src="/images/arcblock.png" alt={title} />
           </Link>
         </div>
       );
@@ -64,7 +64,7 @@ export const PageLogo = ({
     return (
       <div className="logo">
         <Link to={logoLink} disableI18n={disableI18n}>
-          <img className="logo__image" src={logoImage.publicURL || logoImage} alt={title} />
+          <img className="logo__image" src="/images/arcblock.png" alt={title} />
         </Link>
         {!disableI18n && <Language dark={darkHeader} originalPath={originalPath} />}
       </div>
@@ -231,7 +231,12 @@ export default function Layout({ children, location, pageContext }) {
       disableHeader={!!header || disableHeader}
       disableFooter={!!footer || disableFooter}
       darkHeader={darkHeader}>
-      <Div hasBackground={false} pageType={pageType} customHeader={!!header} dark={darkHeader}>
+      <Div
+        hasBackground={true}
+        style={{ background: 'black', color: 'white' }}
+        pageType={pageType}
+        customHeader={!!header}
+        dark={darkHeader}>
         <WechatPrompt />
         <PageHeader
           title={title}

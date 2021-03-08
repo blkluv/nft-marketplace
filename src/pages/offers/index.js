@@ -34,37 +34,38 @@ export default function OffersList() {
     <Div>
       <Container>
         <div className="thumbs">
-          {offers.value.map(x => (
-            <Link key={x._id} to={`/${locale}/offers/detail?oid=${x._id}`}>
-              <div className="thumb">
-                <div className="logo-container">
-                  <AssetDisplay display={x.nftDisplay} />
-                </div>
-                <div className="thumb-bottom">
-                  <div className="name">
-                    <span title={x.nftTitle}>{x.nftTitle}</span>
-                    <span
-                      rounded
-                      color="secondary"
-                      variant="contained"
-                      size="small"
-                      className="tag">
-                      Buy
-                    </span>
+          {offers.values &&
+            offers.value.map(x => (
+              <Link key={x._id} to={`/${locale}/offers/detail?oid=${x._id}`}>
+                <div className="thumb">
+                  <div className="logo-container">
+                    <AssetDisplay display={x.nftDisplay} />
                   </div>
-                  <div className="platform-line">
-                    <Typography component="span" className="stock">
-                      1 Seller
-                    </Typography>
-                    <Typography component="span" color="textSecondary" className="price">
-                      <strong>{x.price}</strong>
-                      <span> {session.token.symbol}</span>
-                    </Typography>
+                  <div className="thumb-bottom">
+                    <div className="name">
+                      <span title={x.nftTitle}>{x.nftTitle}</span>
+                      <span
+                        rounded
+                        color="secondary"
+                        variant="contained"
+                        size="small"
+                        className="tag">
+                        Buy
+                      </span>
+                    </div>
+                    <div className="platform-line">
+                      <Typography component="span" className="stock">
+                        1 Seller
+                      </Typography>
+                      <Typography component="span" color="textSecondary" className="price">
+                        <strong>{x.price}</strong>
+                        <span> {session.token.symbol}</span>
+                      </Typography>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </Link>
-          ))}
+              </Link>
+            ))}
         </div>
       </Container>
     </Div>

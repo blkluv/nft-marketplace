@@ -1,7 +1,7 @@
 ---
 title: 'FAQ'
-description: 'NFT Marketplace FAQ'
-keywords: 'Arcblock'
+description: 'LUV NFT Marketplace FAQ'
+keywords: 'LUV NFT'
 robots: 'index,follow'
 path: '/faq'
 layout: 'page'
@@ -22,26 +22,28 @@ pageType: 'product'
 
 ## {.section .section--list}
 
-#### When and where will ArcBlock DevCon 2020 take place?
+#### NFT? ERC-721 tokens?
 
-DevCon 2020 will be a virtual conference that runs from June 19th to June 21st. For North America the event runs on June 19th and 20th, and for Asia the event runs on June 20th and 21st. Be sure to check your prefered schedule for times and sessions.
+NFT stands for non-fungible tokens like ERC-721 (a smart contract standard) tokens which are hosted on Ethereum’s own blockchain. NFTs are unique digital items such as collectibles or artworks or game items. As an artist, by tokenizing your work you both ensure that it is unique and brand it as your work. The actual ownership is blockchain-managed.
 
-#### What is included in my conference pass?
+#### What does “minting” mean?
 
-ArcBlock is offering several different types of event tickets for this years DevCon. Users who simply wish to attend and listen to the event for free can register using their ABT Wallet. For paid users, we are offering exclusive activites, awards and prizes. Register at [DEVCON 2020](https://devcon.arcblock.io).
+The process of tokenizing your work and creating an NFT (see above).
 
-#### Can my company sponsor DevCon 2020?
+#### Can I change the price of an already created NFT collectible?
 
-For more information about sponsoring DevCon 2020, please contact matt@arcblock.io.
+Absolutely, you can lower the price free of transaction costs at any time. You just need to sign the signature request within your wallet.
 
-#### What languages will the sessions be in?
+#### What does “burn a token” mean?
 
-The content will be presented in both English and Chinese and you can simply change your language settings on the top right corner to select your preference.
+The ERC-721 standard does not only allow the creation of NFTs, but also includes a possibility to destroy them - i.e. burning the token.
 
-#### What are the rewards for the Hackathon?
+#### How do I join as an artist?
 
-You can find the rewards for the hackathon on the hackathon page, and rewards will be issued to teams based on the rules and requirements of the event.
+Artists can submit a profile to SuperRare using this form. https://forms.gle/xomZqftbZ5ShDc3B6 LUV NFT is still in early access and only a very small number of artists are being invited at the moment.
 
-#### Will the sessions and workshops be available after the event?
+We've received an enormous influx of submissions and are currently unable to respond to all everyone who gets in touch. 
 
-Yes, we will include updates on our [Engineering Blog](https://www.arcblock.io/en/engineeringblog) as well as our [Youtube channel](http://www.youtube.com/c/ArcBlock_io). Subscribe to our channel to get all the updates.
+#### What is verification? 
+
+Verified badges are granted to creators and collectors that show enough proof of authenticity and active dedication to the marketplace. We are looking at multiple factors such as active social media presence and following, dialogue with community members,number of minted and sold items. 
