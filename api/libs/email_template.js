@@ -151,9 +151,9 @@ module.exports = ({ hi, body, buttonText, buttonLink, tip }) => `<!DOCTYPE html>
                   valign="top"
                   align="center"
                 >
-                  <a href="https://arcblock.io" style="color: #ec0867; text-decoration: underline;"
+                  <a href="https://luvnft.com" style="color: #ec0867; text-decoration: underline;"
                     ><img
-                      src="https://static.community.arcblockio.cn/uploads/default/original/1X/3e44445fe2ff6b97a93cd4d060b91c3d78eab3f3.png"
+                      src="https://blkluv.org/wp-content/uploads/2021/03/NFT-TRIBE-.png"
                       height="40"
                       alt="Postdrop"
                       style="border: none; -ms-interpolation-mode: bicubic; max-width: 100%;"

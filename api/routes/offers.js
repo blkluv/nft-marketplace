@@ -7,7 +7,7 @@ module.exports = {
         .sort('-updatedAt')
         .limit(100);
 
-      return res.json(items.map(x => x.toJSON()));
+      return res.json(items.map(x => (x === null ? ''.toJSON() : x.toJSON())));
     });
 
     app.get('/api/my/offers', async (req, res) => {

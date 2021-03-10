@@ -1,7 +1,7 @@
 ---
-title: 'I LUV MY NFT'
+title: 'LUV NFT'
 description: 'The NFT marketplace to sell and buy digital collectibles that you LUV'
-keywords: 'blk luv, NFT marketplace, digital collectibles , rarible, rari, crypto nft, crypto collectibles'
+keywords: 'blk luv, NFT marketplace, digital collectibles , rarible, rari, crypto nft, crypto collectibles, hip hop nft'
 robots: 'index,follow'
 path: '/'
 layout: 'page'
@@ -24,7 +24,7 @@ Discover, buy, and sell rare and unique blockchain certified crypto collectibles
 
 ![](./images/discover.png)
 
-## SHOWCASE YOUR LUV MAGIC {.section .section--image-row .section--centered columnSize="6:6"}
+## SHOWCASE YOUR MAGIC {.section .section--image-row .section--centered columnSize="6:6"}
 
 Our tribe owned-marketplace allows you to showcase your magic to patreons around the world. Spread LUV the NFT way.
 
@@ -34,6 +34,8 @@ Our tribe owned-marketplace allows you to showcase your magic to patreons around
 
 ## GET PAID DOING WHAT YOU LUV {.section .section--image-row .section--reversed .section--centered columnSize="6:6"}
 
-It's time to profit off your creations with out a middleman. Use your imagination to create your wealth. 
+It's time to profit off your creations without a middleman. Use your imagination to create your wealth. 
 
 ![](./images/collect.png)
+
+

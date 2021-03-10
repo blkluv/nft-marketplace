@@ -31,7 +31,7 @@ export const PageLogo = ({
   }
 
   if (headerProps) {
-    const logoLink = 'https://www.arcblock.io';
+    const logoLink = 'https://www.luvnft.com';
     const devConLink = '/';
     if (logoImage) {
       return (
@@ -202,20 +202,20 @@ export default function Layout({ children, location, pageContext }) {
     properties: {},
     links: [
       {
-        text: t('footer.source'),
-        href: 'https://github.com/ArcBlock/nft-marketplace',
+        text: t('footer.github'),
+        href: 'https://discord.gg/cKQnhDuh',
       },
       {
         text: t('footer.abtnode'),
-        href: 'https://www.arcblock.io/en/node',
+        href: 'mailto:help@luvnft.com',
       },
       {
         text: t('footer.blocklets'),
-        href: 'https://blocklet.arcblock.io',
+        href: 'https://twitter.com/blkluvorg',
       },
       {
-        text: t('footer.framework'),
-        href: 'https://www.arcblock.io/en/forge-sdk',
+        text: t('footer.blockchainframework'),
+        href: 'https://www.instagram.com/luvnft',
       },
     ],
   };
